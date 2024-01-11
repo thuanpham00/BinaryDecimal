@@ -5,7 +5,7 @@ import Calculator from "./my-app/Calculator"
 function App() {
   return (
     <div className="App">
-      <Calculator />
+      <Calculator isButton={false} />
     </div>
   )
 }

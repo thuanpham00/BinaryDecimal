@@ -3,7 +3,7 @@ import style from "./Input.module.scss"
 
 export class Input extends Component {
   handleChange = (e) => {
-    this.props.onHandleChangeValue(e.target.value)
+    this.props.onHandleChangeValue(e.target.value) // thay đổi value nhập vào
   }
 
   render() {
